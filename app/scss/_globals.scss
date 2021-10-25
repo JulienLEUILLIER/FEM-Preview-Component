@@ -1,11 +1,20 @@
+@use 'variables' as *;
+
 *,
 ::before,
 ::after {
    box-sizing: border-box;
-   font-size: 100%;
+   margin: 0;
+   padding: 0;
 }
 
 body {
-   font-size: 13px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 5.62em 1.54em;
+   background-color: white;
    min-height: 100vh;
+   font-size: 13px;
+   overflow: hidden;
 }
