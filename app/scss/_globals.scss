@@ -1,0 +1,11 @@
+*,
+::before,
+::after {
+   box-sizing: border-box;
+   font-size: 100%;
+}
+
+body {
+   font-size: 13px;
+   min-height: 100vh;
+}
