@@ -22,6 +22,7 @@
       background-position: center;
       height: 40%;
       width: 100%;
+      border-radius: 10px 10px 0px 0px;
 
       @include breakpoint-up(medium) {
          height: 50%;
@@ -32,6 +33,7 @@
          max-width: 21.62em;
          background-position: left;
          object-fit: cover;
+         border-radius: 10px 0px 0px 10px;
       }
    }
 

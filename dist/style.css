@@ -40,6 +40,7 @@ body {
   background-position: center;
   height: 40%;
   width: 100%;
+  border-radius: 10px 10px 0px 0px;
 }
 @media screen and (min-width: 35em) {
   .card__illustration {
@@ -52,6 +53,7 @@ body {
     max-width: 21.62em;
     background-position: left;
     object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
   }
 }
 .card__content {
